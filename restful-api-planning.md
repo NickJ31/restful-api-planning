@@ -63,7 +63,7 @@ Conditional Styling
 CSS classes will be assigned based on Specific JSON values
 
 Examples:
- Data Value | Conditional Styling |
+| Data Value | Conditional Styling |
 | type === "large" | Large monster badge |
 | type === "small" | Small monster badge |
 | Weakness stars 3 | Strong weakness highlighted |
