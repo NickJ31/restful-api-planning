@@ -63,7 +63,7 @@ Conditional Styling
 CSS classes will be assigned based on Specific JSON values
 
 Examples:
-| ## Data Value | ## Conditional Styling |
+|  Data Value | Conditional Styling |
 | type === "large" | Large monster badge |
 | type === "small" | Small monster badge |
 | Weakness stars 3 | Strong weakness highlighted |
@@ -132,7 +132,7 @@ The following will be used to develop the application
 
 ## Implementation Steps
 | Stage | Implementation task | Expected outcome | 
-| :--- | =--- | =--- |
+| :--- | :--- | :--- |
 | 1 | Set up the project structure | Working Project folders and initial files |
 | 2 | Configure the flask application and API connetion | Backend can communicate with Monster Hunter World API |
 | 3 | Implement GET requests | Monster data successfully retrieved |
