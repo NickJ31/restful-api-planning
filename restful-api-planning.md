@@ -26,6 +26,8 @@ public API endpoints
 | /locations | GET | Retrieve available locations in game |
 
 backend endpoints
+| Endpoint | HTTP method | Purpose |
+| :--- | :--- | :--- |
 | /api/monsters | GET | Retrieves monster data from public API
 | /api/monsters/{id} | GET | Retrieves information about specific Monster |
 | /api/weapons | GET | Retrieves weapon info from API |
@@ -64,6 +66,7 @@ CSS classes will be assigned based on Specific JSON values
 
 Examples:
 | Data Value | Conditional Styling |
+| :--- | :--- |
 | type === "large" | Large monster badge |
 | type === "small" | Small monster badge |
 | Weakness stars 3 | Strong weakness highlighted |
@@ -80,6 +83,7 @@ The application will include a Hunt Preparation Form that allows users to submit
 Form controls and validation
 
 | Input field | Control | Validation |
+| :--- | :--- | :--- |
 | Hunter name | Text input | Required, 2-40 characters |
 | Target monster | Dropdown | Required, must select a monster |
 | Weapon type | Dropdown | Required, valid weapon category | 
@@ -118,6 +122,7 @@ The backend should return:
 The following will be used to develop the application
 
 | Technology | Purpose |
+| :--- | :--- |
 | HTMLS | Application structure |
 | CSS3 | Layout, design and conditional styling |
 | JavaScript | Fetch API, form validation and dynamic rendering | 
